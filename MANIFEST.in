@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include agronomy *.css
+recursive-include agronomy *.csv
+recursive-include agronomy *.html
+recursive-include agronomy *.ico
+recursive-include agronomy *.js
+recursive-include agronomy *.json
+recursive-include agronomy *.md
+recursive-include agronomy *.png
+recursive-include agronomy *.py
+recursive-include agronomy *.svg
+recursive-include agronomy *.txt
+recursive-exclude agronomy *.pyc
